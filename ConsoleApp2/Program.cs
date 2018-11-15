@@ -8,21 +8,23 @@ namespace ConsoleApp2
 {
     class Program
     {
-        private static List<string> jacob = new List<string>();
-
-
-
-
-
         static void Main(string[] args)
         {
+            var erik = new Erik("Erik", 25, true);
 
-            for (int i = 0; i < 100; i++)
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("jacob er en noob");
+                Console.WriteLine("erik taler meget hurtigt");
             }
 
             Console.Read();
+
+
+
+
+
+
 
 
 
